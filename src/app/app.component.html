@@ -1,0 +1,9 @@
+<div class="w-25 p-3 container">
+  <div class="p-3 d-flex justify-content-center">
+    <input #code type="text" [maxLength]="12" (keypress)="onlyDigits($event)" (keyup)="isValid(code.value)">
+    <button [disabled]="!valid" (click)="generate(code.value)">Generate</button>
+  </div>
+  <div class="p-3 d-flex justify-content-center">
+    <canvas #canvas width="480" height="360"></canvas>
+  </div>
+</div>
