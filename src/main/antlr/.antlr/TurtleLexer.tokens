@@ -1,9 +1,0 @@
-WS=1
-STRING=2
-ENTITY=3
-PERIOD=4
-COMA=5
-SEMIC=6
-'.'=4
-','=5
-';'=6
